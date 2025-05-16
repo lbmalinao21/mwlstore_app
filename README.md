@@ -1,139 +1,102 @@
-MWL Store - E-commerce UI Project
-Student Name & ID: Frederico Warde [2021-2297740]
-  Lj Malinao [2023-2110278]
-                                  Hannah Leocario [2023-2110528]
-PROJECT DESCRIPTION
-MWL Store is a modern e-commerce mobile application UI built using Flutter. This project features a sleek and user-friendly interface for browsing and purchasing products. The store specializes in fashion and lifestyle items such as bags, shoes, clothes, pots, shorts, and pants. The overall theme focuses on simplicity, modern design aesthetics, and ease of navigation, providing a seamless shopping experience.
+# MWL Store – E-commerce UI Project
 
- Implemented Features
- Screens
-Screen Name
-Purpose
-Key UI Elements
-Splash Screen
-Briefly displays the app logo before navigating to the home screen.
-Large centered logo, violet background.
-Home Screen
-Displays product categories and a grid of product items.
-Category filter chips, product grid cards, cart icon on AppBar.
-Product Detail Screen
-Shows detailed information about a selected product.
-Product image, name, price, and 'Add to Cart' button.
-Cart Screen
-Lists all products added to the cart and displays the total price.
-Product list with images, total amount, and 'Proceed to Checkout' button.
-Checkout Screen
-Collects user information and payment methods before placing an order.
-Form fields for name, address, payment method radio buttons, 'Place Order' button.
-Order Confirmation Screen
-Confirms successful order placement with a thank you message.
+**Student Names & IDs**  
+- Frederico Warde – `2021-2297740`  
+- Lj Malinao – `2023-2110278`  
+- Hannah Leocario – `2023-2110528`
 
+---
 
-Success icon, confirmation text, 'Back to Home' button.
+## 📱 Project Description
 
-Additional UI Features
-Category Filtering: Filter products by selecting a category chip.
+**MWL Store** is a modern e-commerce mobile application UI built using **Flutter**. This project features a sleek, user-friendly interface for browsing and purchasing fashion and lifestyle items such as:
 
+- Bags
+- Shoes
+- Clothes
+- Pots
+- Shorts
+- Pants
 
-Snackbars for Cart Addition: Confirmation messages when adding products to the cart.
+The design emphasizes simplicity, modern aesthetics, and seamless navigation to ensure a smooth shopping experience.
 
+---
 
-Navigation Routes: Smooth transitions between screens.
+## 🧩 Implemented Features
 
+### 🔹 Screens Overview
 
-Responsive Grid Layout for product listing.
+| Screen Name             | Purpose                                                      | Key UI Elements                                              |
+|-------------------------|--------------------------------------------------------------|---------------------------------------------------------------|
+| **Splash Screen**       | Displays logo briefly before navigating to home screen       | Centered logo, violet background                              |
+| **Home Screen**         | Displays product categories and items                        | Category filter chips, product grid, cart icon                |
+| **Product Detail**      | Shows product info in detail                                 | Product image, name, price, 'Add to Cart' button              |
+| **Cart Screen**         | Shows added items and total cost                             | List of products, total price, 'Proceed to Checkout' button   |
+| **Checkout Screen**     | Gathers user info and payment method                         | Name, address, payment options, 'Place Order' button          |
+| **Order Confirmation**  | Confirms successful order                                    | Success icon, message, 'Back to Home' button                  |
 
+---
 
-Custom Widgets: Reusable ProductCard and CategoryFilter components.
+## 🛠️ Additional UI Features
 
+- **Category Filtering:** Horizontally scrollable chips to filter products  
+- **Snackbars for Cart Addition:** Quick confirmation when items are added  
+- **Smooth Navigation Routes:** Animated transitions between screens  
+- **Responsive Grid Layout:** Adapts to various screen sizes  
+- **Custom Widgets:**
+  - `CategoryFilter` – Scrollable chip selector
+  - `ProductCard` – Interactive product tile
 
-Unique Design Choices & Creativity
- Niche & Concept
-The store targets young adults and casual shoppers looking for affordable yet stylish fashion and lifestyle products. The product mix is designed to appeal to modern minimalists.
-Color Palette
-Primary Color: Teal (#008080) – symbolizes trust, balance, and calmness.
+---
 
+## 🎨 Design & Creativity
 
-Accent Colors: White and light grey for a clean and modern look.
+### 🎯 Niche & Concept
+Aimed at **young adults** and **casual shoppers** looking for **affordable, stylish** fashion. Appeals to minimalists with a taste for clean design.
 
+### 🎨 Color Palette
+- **Primary Color:** Teal `#008080` (trust, calm, balance)  
+- **Accent Colors:** White & Light Grey (clean and modern)
 
- Typography & Iconography
-Typography: Default Flutter fonts with emphasis on bold headings and readable body text.
+### 🔤 Typography & Icons
+- **Fonts:** Default Flutter fonts with bold headers and readable body text  
+- **Icons:** Material Icons for consistency and intuitive navigation
 
+---
 
-Icons: Material icons for cart, checkmarks, and navigation, ensuring consistency and familiarity.
+## 📸 Screenshots
 
+### 🏠 Home Screen  
+![Home Screen](https://github.com/user-attachments/assets/4fbfdec2-7702-42fb-80d4-93c0b69423d0)
 
+### 📄 Product Detail Screen  
+![Product Detail](https://github.com/user-attachments/assets/f1759d71-9210-419e-a456-53763a434232)
 
- Custom Widgets
-CategoryFilter Widget: A horizontally scrollable chip selector for product categories.
+### 🛒 Cart Screen  
+![Cart Screen](https://github.com/user-attachments/assets/9494e2d5-e76e-4e0b-88ff-68141cbfe834)
 
+### 🧾 Checkout Form  
+![Checkout Form](https://github.com/user-attachments/assets/caf88e9e-bea7-4cff-aebd-60499c3b93e1)
 
-ProductCard Widget: Interactive card displaying product image and details with tap navigation.
+### ✅ Order Confirmation  
+![Order Confirmation](https://github.com/user-attachments/assets/36243821-0221-4936-b661-7c6a0ecd4e4a)
 
+---
 
-Screenshots 
-Home Screen (Product Grid)
-![image](https://github.com/user-attachments/assets/4fbfdec2-7702-42fb-80d4-93c0b69423d0)
+## 🧠 Challenges Faced & Solutions
 
+### 1. State Management for Cart
+- **Challenge:** Keeping cart state updated across screens  
+- **Solution:** Created a singleton-like `CartManager` class and used `setState()` to trigger UI refresh
 
+### 2. Passing Data Between Screens
+- **Challenge:** Efficiently sending product info to the detail screen  
+- **Solution:** Utilized `Navigator.pushNamed` with arguments to pass product data cleanly
 
+---
 
-Product Detail Screen
-![image](https://github.com/user-attachments/assets/f1759d71-9210-419e-a456-53763a434232)
+## ✅ Conclusion
 
+The **MWL Store UI Project** showcases a fully functional e-commerce front-end interface using Flutter. With its clean design, reusable components, and intuitive navigation, it serves as a solid foundation for further development into a complete shopping app.
 
-
-
-
-
-
-
-Cart Screen
-![image](https://github.com/user-attachments/assets/9494e2d5-e76e-4e0b-88ff-68141cbfe834)
-
-
-
-
-
-
-
-
-Checkout Form
-![image](https://github.com/user-attachments/assets/caf88e9e-bea7-4cff-aebd-60499c3b93e1)
-
-
-
-
-
-
-Order Confirmation
-![image](https://github.com/user-attachments/assets/36243821-0221-4936-b661-7c6a0ecd4e4a)
-
-
-
-
-
-
-
-
-Challenges Faced & Solutions
-1. State Management for Cart Functionality
-Challenge: Managing cart items and ensuring real-time updates across screens.
-
-
-Solution: Implemented a simple singleton-like CartManager class to hold and manage cart data. Used setState to trigger UI updates.
-
-
-2. Passing Data Between Screens
-Challenge: Efficiently passing product data to the Product Detail screen.
-
-
-Solution: Used Flutter's Navigator.pushNamed with arguments to pass product objects cleanly to detail pages.
-
-
-
- Conclusion
-The MWL Store UI Project successfully demonstrates a fully functional e-commerce front-end interface using Flutter, focusing on clean UI/UX design principles, modular components, and efficient navigation flow.
-
-
+---
