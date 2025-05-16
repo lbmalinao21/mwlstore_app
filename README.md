@@ -74,12 +74,13 @@ ProductCard Widget: Interactive card displaying product image and details with t
 
 Screenshots 
 Home Screen (Product Grid)
-![image](https://github.com/user-attachments/assets/4978e6a7-7745-4af0-9c61-e6a27358f6d7)
+![image](https://github.com/user-attachments/assets/4fbfdec2-7702-42fb-80d4-93c0b69423d0)
 
 
 
 
 Product Detail Screen
+![image](https://github.com/user-attachments/assets/f1759d71-9210-419e-a456-53763a434232)
 
 
 
@@ -89,6 +90,7 @@ Product Detail Screen
 
 
 Cart Screen
+![image](https://github.com/user-attachments/assets/9494e2d5-e76e-4e0b-88ff-68141cbfe834)
 
 
 
@@ -98,6 +100,7 @@ Cart Screen
 
 
 Checkout Form
+![image](https://github.com/user-attachments/assets/caf88e9e-bea7-4cff-aebd-60499c3b93e1)
 
 
 
@@ -105,6 +108,7 @@ Checkout Form
 
 
 Order Confirmation
+![image](https://github.com/user-attachments/assets/36243821-0221-4936-b661-7c6a0ecd4e4a)
 
 
 
@@ -132,172 +136,4 @@ Solution: Used Flutter's Navigator.pushNamed with arguments to pass product obje
  Conclusion
 The MWL Store UI Project successfully demonstrates a fully functional e-commerce front-end interface using Flutter, focusing on clean UI/UX design principles, modular components, and efficient navigation flow.
 
-Project Overview
 
-MWL Store is a mobile e-commerce application designed using Flutter and Dart. The focus of this project is to demonstrate a solid understanding of Flutter UI/UX design principles by creating a visually appealing and intuitive front-end for a niche-based shopping platform. This app does not rely on any backend and uses mock data for demonstration.
-
-🌟 Objective and Purpose
-
-To apply knowledge of Flutter widgets, layout, and navigation.
-
-To design an attractive and user-friendly e-commerce UI.
-
-To simulate basic e-commerce functionalities such as browsing, cart management, and checkout.
-
-To demonstrate creativity and originality through design, layout, and app theme.
-
-✅ Requirements Met
-
-Feature
-
-Description
-
-✅ Splash Screen
-
-Simple branded intro screen
-
-✅ Home/Product Listing
-
-Grid layout of products with images, price, and name
-
-✅ Product Details
-
-Detailed view of selected product with Add to Cart
-
-✅ Cart Screen
-
-Displays items in the cart, editable quantity, and total
-
-✅ Checkout
-
-Multi-step UI with address, payment selection, and order summary
-
-✅ Order Confirmation
-
-Confirmation page after placing an order
-
-✅ Navigation
-
-Implemented using Navigator and routes
-
-🗂 App Screens and Functions
-
-🔹 Splash Screen
-
-A minimal splash screen displaying app branding.
-
-🏠 Home Screen
-
-
-
-Displays a grid of products.
-
-Tapping a product opens the detail screen.
-
-AppBar includes a Cart icon for quick access.
-
-Products are grouped into the following categories:
-
-Bags
-
-Leather Handbag
-
-Canvas Tote
-
-Travel Duffel
-
-Shoes
-
-Running Sneakers
-
-Leather Boots
-
-Flip Flops
-
-Clothes
-
-Linen Shirt
-
-Casual Dress
-
-Denim Jacket
-
-Pots
-
-Handmade Mug
-
-Clay Pot
-
-Ceramic Vase
-
-Shorts
-
-Cotton Shorts
-
-Athletic Shorts
-
-Jean Shorts
-
-Pants
-
-Chinos
-
-Joggers
-
-Formal Trousers
-
-📄 Product Detail Screen
-
-
-
-Large product image, name, price, description.
-
-Includes an "Add to Cart" button.
-
-🛒 Cart Screen
-
-
-
-Lists items added to the cart.
-
-Allows quantity adjustments.
-
-Displays subtotal and total.
-
-Proceed to Checkout button.
-
-💳 Checkout
-
-
-
-Shipping form: Name, Address, Zip, City.
-
-Payment Method UI: Card/PayPal (mock).
-
-Order Summary before placing the order.
-
-✅ Order Confirmation
-
-
-
-Simple message confirming order placement.
-
-🧠 Learning Highlights
-
-Throughout this project, we learned how to:
-
-Use Flutter widgets effectively to build responsive and reusable UI components.
-
-Implement navigation between screens using named routes.
-
-Manage mock data and pass it between widgets.
-
-Apply UI/UX best practices including spacing, typography, and consistency.
-
-Build a cohesive theme based on a unique niche (e.g., artisan crafts).
-
-Structure a Flutter project with maintainable and modular code.
-
-Incorporate visual storytelling through custom color palettes, icons, and animations.
-
-Collaborate and manage source code using GitHub and version control best practices.
